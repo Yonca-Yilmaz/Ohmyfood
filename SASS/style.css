@@ -308,6 +308,11 @@ aside p{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 3%;
+        margin-bottom: 19%;
     }
 
     .haut{
@@ -344,18 +349,7 @@ aside p{
     
     }  
    
- 
-}
-@media only screen and (max-width: 600px){
-   .Menus{
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-between;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;  
-       
-}
-   }
+
+ }
 
 /*# sourceMappingURL=style.css.map */
