@@ -343,6 +343,10 @@ aside p{
         margin-right: 1%;
     
     }  
+   
+ 
+}
+@media all and (max-width: 1024px){
    .Menus{
     display: flex;
     flex-direction: column; 
@@ -352,7 +356,6 @@ aside p{
     margin-right: 15%;  
        
 }
- 
-}
+   }
 
 /*# sourceMappingURL=style.css.map */
