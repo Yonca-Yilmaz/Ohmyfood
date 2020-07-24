@@ -1,3 +1,281 @@
+@charset "UTF-8";
+body {
+  width: 100%;
+}
+
+section {
+  background-color: #fff5fe;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 3%;
+  font-family: "Galdeano", sans-serif;
+}
+
+.Menu2 {
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px 4px #ccc;
+}
+
+.plats {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.appétit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: normal;
+  margin-right: 3%;
+  font-family: "Galdeano", sans-serif;
+  color: #c78b42;
+}
+
+.titre1 {
+  display: flex;
+  text-align: center;
+  color: #c06100;
+}
+
+.papilles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: normal;
+  margin-right: 3%;
+  font-family: "Galdeano", sans-serif;
+  color: #a66999;
+}
+
+.titre2 {
+  display: flex;
+  text-align: center;
+  color: #994688;
+}
+
+.gourmandises {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: normal;
+  margin-right: 3%;
+  font-family: "Galdeano", sans-serif;
+  color: #8a64d7;
+}
+
+.gourmandises ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-family: "Galdeano", sans-serif;
+}
+
+.titre3 {
+  display: flex;
+  text-align: center;
+  color: #5a2cc7;
+}
+
+header {
+  width: 100%;
+  background-color: #478c73;
+  border: 1px solid #478c73;
+  height: 70px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffcc45;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Poller One";
+}
+
+section h2 {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Redressed", cursive;
+  font-weight: normal;
+  background: linear-gradient(to right, #f7b531 0%, #d841d8 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+footer {
+  display: flex;
+  width: auto;
+  align-items: center;
+  background-color: #478c73;
+  border: 1px solid #478c73;
+  height: 40px;
+  margin-top: 2%;
+  justify-content: space-between;
+  color: #ebc74c;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ebc74c;
+}
+footer a:hover {
+  -webkit-animation-name: shake;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  10% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  20% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  30% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  50% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  70% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  90% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(2px, 2px);
+  }
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-weight: normal;
+}
+
+.nomplat {
+  width: 90%;
+}
+
+.prix {
+  width: 10%;
+}
+
+h3 img {
+  width: 250px;
+}
+
+.titre1 .underline {
+  background: linear-gradient(to top, #c06100, #c06100 1px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+
+.underline:hover {
+  background-size: 100% 100%;
+}
+
+.titre2 .underline {
+  background: linear-gradient(to top, #994688, #994688 1px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+
+.underline:hover {
+  background-size: 100% 100%;
+}
+
+.titre3 .underline {
+  background: linear-gradient(to top, #5a2cc7, #5a2cc7 1px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+
+.underline:hover {
+  background-size: 100% 100%;
+}
+
+@media all and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+
+  section {
+    display: block;
+    background-color: #fff5fe;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    margin-bottom: 19%;
+    font-family: "Galdeano", sans-serif;
+  }
+
+  footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  footer p {
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+  }
+
+  .appétit_plats {
+    overflow-wrap: no-wrap;
+    width: 70%;
+    height: 100%;
+  }
+
+  article p {
+    margin-left: 20%;
+  }
+
+  h3 img {
+    width: 250px;
+  }
+
+  .titre1 {
+    display: grid;
+    justify-content: center;
+  }
+
+  .titre2 {
+    display: grid;
+    justify-content: center;
+  }
+
+  .titre3 {
+    display: grid;
+    justify-content: center;
+  }
+}
 
 
 /*# sourceMappingURL=menu2.css.map */
