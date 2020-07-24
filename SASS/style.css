@@ -346,7 +346,7 @@ aside p{
    
  
 }
-@media all and (max-width: 1024px){
+@media only screen and (max-width: 600px){
    .Menus{
     display: flex;
     flex-direction: column; 
