@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 300 24">
+<metadata>
+<vectornator:setting key="DisplayWhiteBackground" value="1"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="1"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="New" value="1"/>
+<vectornator:setting key="DynamicGuides" value="1"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToGrid" value="1"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="GridSpacing" value="8"/>
+</metadata>
+<defs>
+<linearGradient y1="300" id="LinearGradient" x1="264" y2="300" x2="312" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 2)">
+<stop stop-color="#1b810a" offset="0"/>
+<stop stop-color="#ffffff" offset="1"/>
+</linearGradient>
+<linearGradient y1="325.498" id="LinearGradient_2" x1="276.059" y2="325.498" x2="435.556" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -208.949 -313.039)">
+<stop stop-color="#a9e291" offset="0"/>
+<stop stop-color="#22891b" offset="1"/>
+</linearGradient>
+<linearGradient y1="328" id="LinearGradient_3" x1="424" y2="328" x2="424" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)">
+<stop stop-color="#a9e291" offset="0"/>
+<stop stop-color="#22891b" offset="1"/>
+</linearGradient>
+</defs>
+<g id="Layer 1" vectornator:layerName="Layer 1">
+<path d="M368+298L333.844+301.656C336.253+303.015+338.596+304.566+340.688+306.562C341.563+307.399+342.316+308.16+343.156+309.094C344.091+310.133+344.991+311.231+345.969+312.625C346.253+313.03+346.508+313.573+346.781+314L368+314L392+314L432+322L448+314L472+322L496+322L496+306L472+298L432+298L392+306L368+298Z" opacity="0.95" fill="url(#LinearGradient)"/>
+<path d="M50.6652+13.9612C50.021+13.6181+52.8191+13.4084+54.2241+13.2652C55.7197+13.1127+57.5134+13.0353+58.9418+12.9522C60.7495+12.847+61.9722+12.7324+61.265+12.4442C60.9349+12.3097+57.7416+12.0625+57.7058+11.9916C57.5322+11.6474+56.1562+11.6023+55.8073+11.5969C55.4753+11.5917+53.1679+11.6225+53.0834+11.4651C52.9149+11.1513+49.511+10.8643+50.3912+10.6255C52.0935+10.1638+58.8588+9.88244+59.2109+9.93578C60.0159+10.0577+60.0808+9.33615+61.2839+9.61066C63.7115+10.1646+66.7018+10.7024+69.2551+9.9062C71.1895+9.30295+73.2218+10.4067+74.5706+10.003C75.4383+9.74324+79.4407+11.9399+79.8078+10.7494C80.0509+9.96125+81.3936+10.7839+82.7362+10.5887C87.0509+9.96125+88.3177+11.3079+90.0509+10.9612C92.9989+10.3716+94.2088+9.78202+96.6672+9.73477C98.3784+9.70189+100.694+9.93176+104.623+10.6073C107.41+11.0865+117.108+12.466+119.051+10.9612C121.033+9.42673+122.704+10.7883+124.16+10.7298C130.939+10.4577+129.433+10.3822+131.775+11.1623C135.737+12.482+146.06+9.96125+146.06+9.96125C146.06+9.96125+150.371+12.9612+158.368+10.9612C166.366+8.96125+166.38+10.9612+175.051+10.9612C183.721+10.9612+191.051+10.9612+191.051+10.9612C191.051+10.9612+193.485+10.8601+196.954+10.7639C200.095+10.6768+204.086+10.5938+207.888+10.5938C215.888+10.5938+223.051+9.96125+223.051+9.96125C223.051+9.96125+225.424+15.7635+222.665+15.9612C219.906+16.159+219.909+15.5337+216.641+15.5716C213.878+15.6035+206.018+14.8484+202.044+14.8637C200.651+14.869+185.58+15.9872+181.889+15.0424C177.665+13.9612+170.118+15.2944+166.629+15.0391C163.959+14.8436+155.443+15.9149+154.166+15.0666C152.868+14.204+146.871+14.9612+143.051+14.9612C137.473+14.9612+139.101+15.5208+137.965+14.9116C137.65+14.7426+131.895+15.6423+130.056+15.3559C129.787+15.314+125.854+15.0808+121.635+15.0086C117.87+14.9441+113.08+14.008+108.246+14.4504C105.778+14.6764+96.9053+14.765+96.9053+14.765C96.9053+14.765+94.1386+14.6479+92.4712+14.4218C89.3873+14.0038+85.9193+14.7176+85.5746+14.7292C80.5593+14.8976+73.6195+14.6129+69.3831+14.5049C67.783+14.4641+54.5686+14.4486+53.9891+14.4921" opacity="0.95" fill="url(#LinearGradient_2)"/>
+<path d="" opacity="0.95" fill="url(#LinearGradient_3)"/>
+</g>
+</svg>

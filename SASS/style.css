@@ -1,0 +1,206 @@
+@charset "UTF-8";
+body {
+  display: block;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu_note {
+  display: block;
+  height: 400px;
+  width: 250px;
+  border: 2px solid grey;
+  padding: 2%;
+  text-align: center;
+  line-height: 25px;
+  background-color: #fde0dc;
+  cursor: pointer;
+  transform: scale 1;
+  transition-property: transform;
+  transition-duration: 2000ms;
+}
+.menu_note:hover {
+  transform: scale(1.5);
+}
+
+.menu_note h2 {
+  font-size: 30px;
+  margin-top: 10%;
+  font-family: "Kalam", cursive;
+  color: black;
+}
+
+.menu_note h1 {
+  font-size: 30px;
+  margin-top: 50%;
+  font-family: "Devonshire", cursive;
+  font-weight: normal;
+  color: black;
+}
+
+.menu_note .musique {
+  font-size: 40px;
+  margin-top: 20%;
+  color: black;
+}
+
+.menu_chic {
+  display: block;
+  height: 400px;
+  width: 250px;
+  border: 2px solid grey;
+  padding: 2%;
+  text-align: center;
+  background-color: #fff5fe;
+  cursor: pointer;
+  transform: scale 1;
+  transition-property: transform;
+  transition-duration: 2000ms;
+}
+.menu_chic:hover {
+  transform: scale(1.5);
+}
+
+.menu_chic h1 {
+  font-size: 30px;
+  margin-top: 50%;
+  font-family: "Redressed", cursive;
+  background: linear-gradient(to right, #f7b531 0%, #d841d8 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.menu_chic h2 {
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  color: #c87725;
+}
+
+.menu_délice {
+  display: block;
+  height: 400px;
+  width: 250px;
+  border: 2px solid grey;
+  padding: 2%;
+  text-align: center;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transform: scale 1;
+  transition-property: transform;
+  transition-duration: 2000ms;
+}
+.menu_délice:hover {
+  transform: scale(2);
+}
+
+.menu_délice h1 {
+  font-size: 30px;
+  margin-top: 50%;
+  font-family: "Dancing Script", cursive;
+  background: linear-gradient(to right, #331abf 0%, #6e91d8 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.menu_délice h2 {
+  font-size: 30px;
+  font-family: "Kalam", cursive;
+  color: #6e91d8;
+}
+
+.menu_palette {
+  display: block;
+  height: 400px;
+  width: 250px;
+  border: 2px solid grey;
+  padding: 2%;
+  text-align: center;
+  background-color: #fdfdfd;
+  cursor: pointer;
+  transform: scale 1;
+  transition-property: transform;
+  transition-duration: 2000ms;
+}
+.menu_palette:hover {
+  transform: scale(1.5);
+}
+
+.menu_palette h1 {
+  font-size: 30px;
+  margin-top: 50%;
+  font-family: "Merienda", cursive;
+  font-style: italic;
+  background: linear-gradient(to right, #1a820a 0%, #8bc958 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.menu_palette h2 {
+  font-size: 30px;
+  margin-top: 10%;
+  font-family: "Kalam", cursive;
+  color: #8bc958;
+}
+
+.Menus {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+header {
+  background-color: #478c73;
+  border: 1px solid #478c73;
+  height: 70px;
+  text-align: center;
+}
+
+header h1 {
+  background-color: #478c73;
+  border: 1px solid #478c73;
+  color: #ffcc45;
+  text-align: center;
+  font-family: "Poller One", cursive;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+footer {
+  display: flex;
+  background-color: #478c73;
+  border: 1px solid #478c73;
+  height: 70px;
+  height: 40px;
+  margin-top: 2%;
+  justify-content: space-between;
+  color: #ebc74c;
+}
+
+aside {
+  display: block;
+  text-align: center;
+  width: 270px;
+  height: 80px;
+  background-color: #478c73;
+  border: 1px solid #478c73;
+  border-radius: 10%;
+  margin-top: 2%;
+  margin-left: 40%;
+  margin-right: 30%;
+  color: #ebc74c;
+}
+
+/*# sourceMappingURL=style.css.map */

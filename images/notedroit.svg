@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 220 11">
+<metadata>
+<vectornator:setting key="DisplayWhiteBackground" value="1"/>
+<vectornator:setting key="RulersVisible" value="0"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="New" value="1"/>
+<vectornator:setting key="DynamicGuides" value="1"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToGrid" value="1"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="SnapToEdges" value="1"/>
+</metadata>
+<defs/>
+<g id="Layer 1" vectornator:layerName="Layer 1">
+<path stroke="#000000" stroke-width="1" d="M39.3383+7.77934C1.33827+11.2835+20.4014+5.39829+25.2635+4.1948C30.1256+2.99132+55.707+3.31397+58.7867+2.96539C65.3403+2.22362+72.7924+3.23847+79.8417+2.73606C86.0973+2.29023+92.0562+4.38637+97.8708+3.05652C99.395+2.70793+104.045+2.10112+110.291+2.01125C113.764+1.9613+117.73+2.07107+121.926+2.47374C129.235+3.17507+112.333+2.51032+119.655+2.49182C122.083+2.48568+131.478+2.67038+140.3+2.86028C148.071+3.02755+155.398+3.19885+157.129+3.2473C161.032+3.35657+164.26+4.20576+166.418+3.16948C166.599+3.08246+168.635+3.31624+169.263+3.02676C169.263+3.02676+173.425+1.80032+177.753+2.93876C178.448+3.1216+180.576+3.28611+183.494+3.42798C189.958+3.74223+200.301+3.94542+207.546+3.99063C218.061+4.05625+214.884+7.12933+213.219+7.39575C213.001+7.43056+206.569+7.85989+198.534+8.42145C184.16+9.42597+164.653+8.51753+166.402+8.86697L133.263+8.86697" fill="#000000" stroke-linecap="round" opacity="0.95" stroke-linejoin="round" vectornator:blendMode="Lighten"/>
+</g>
+</svg>

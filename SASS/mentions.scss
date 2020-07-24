@@ -1,0 +1,59 @@
+@import "./utils/mixins";
+
+body{
+  
+    width: 100%;
+}
+h1 {
+    @include h1;
+}
+
+footer{
+    @include footer;
+}
+
+section{
+
+    width: 90%;
+}
+header{
+    width: 100%;
+    background-color: rgb(71,140,115);
+    border: 1px solid rgb(71,140,115);
+    height: 70px;
+    text-align: center;
+}
+
+h2{  
+    font-size: 30px;
+    text-align: center;
+    color: rgb(112, 154, 135)
+}
+
+p{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+footer a{
+    display:inline-block;
+    text-decoration: none;
+    color: rgb(235,199,76 );
+    &:hover{
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+    }
+}
+@-webkit-keyframes shake{
+    0%{-webkit-transform: translate(2px,2px);}
+    10%{-webkit-transform: translate(-2px,-2px);}
+    20%{-webkit-transform: translate(2px,2px);}
+    30%{-webkit-transform: translate(-2px,-2px);}
+    40%{-webkit-transform: translate(2px,2px);}
+    50%{-webkit-transform: translate(-2px,-2px);}
+    60%{-webkit-transform: translate(2px,2px);}
+    70%{-webkit-transform: translate(-2px,-2px);}
+    80%{-webkit-transform: translate(2px,2px);}
+    90%{-webkit-transform: translate(-2px,-2px);}
+    100%{-webkit-transform: translate(2px,2px);}
+}

@@ -1,0 +1,72 @@
+@mixin footer{
+    display: flex;
+    width: auto;
+    align-items: center;
+    background-color: rgb(71,140,115);
+    border: 1px solid rgb(71,140,115);
+    height: 40px;
+    margin-top: 2%;
+   justify-content: space-between;
+   color: rgb(235,199,76);
+
+}
+@mixin blocks1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kalam', cursive; 
+    word-wrap: break-word; 
+    margin-right: 5%;
+}
+
+@mixin plats {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+   
+}
+
+@mixin h1{
+    color: rgb(255,204,69);
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+@mixin Blocks2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: normal;
+    margin-right: 3%;
+    font-family: 'Galdeano', sans-serif;
+  
+}
+@mixin Blocks3{
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    margin-right: 3%;
+    font-size: 15px;
+    font-family: 'Shadows Into Light Two', cursive;
+  
+}
+
+@mixin blocks4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Merienda', cursive;
+    
+}
+
+@mixin ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: normal;
+    
+}

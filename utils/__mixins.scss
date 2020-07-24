@@ -1,0 +1,21 @@
+@mixin footer{
+    display: flex;
+    width: auto;
+    align-items: center;
+    background-color: rgb(71,140,115);
+    border: 1px solid rgb(71,140,115);
+    height: 40px;
+    margin-top: 2%;
+   justify-content: space-between;
+   color: rgb(235,199,76);
+
+}
+@mixin blocks{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 100%;
+  width: 70%;
+  font-family: 'Kalam', cursive;  
+}
